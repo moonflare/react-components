@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.6.3":
+"@babel/runtime@^7.6.3", "@babel/runtime@^7.8.4":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
@@ -10,9 +10,34 @@
     regenerator-runtime "^0.13.2"
 
 "@zendeskgarden/container-breadcrumb@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-breadcrumb/-/container-breadcrumb-0.4.1.tgz#8e7cc8c6810498964c8df09e4ab7a4315aef0a6c"
-  integrity sha512-2qhaI8+YpiMWYLZGh+d1OihWgbXgcyZW47HDXz9rcVrwb+6k8tsEJQirWT/ZgR9UeUlbkMqzn/LdjnbCbWIugg==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-breadcrumb/-/container-breadcrumb-0.4.2.tgz#adefb7ebccbdcfa874359715999d61a4484584af"
+  integrity sha512-nV833xyVms1/5Vje/ubYNuD1tOgi4VczhXzKJkSp4TdZau/lq/mdIbPs8b9Z59PCx6mjYOUjsByBH/5zLc7WKA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+
+"@zendeskgarden/container-focusvisible@^0.4.1":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-focusvisible/-/container-focusvisible-0.4.2.tgz#f1fe2f9e33c8af1fc838fac6dabc5ec0e93cfe9c"
+  integrity sha512-UlT1Wq2vWci3xUk4BGZnKLtEJtDf1OACMtCa0kTSL7Lk40qD+rM3BIiay0GYOfeDKQ+Ar/mk32GPqcYzpa/tbA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+
+"@zendeskgarden/container-utilities@^0.5.1":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.5.2.tgz#38aeb5cf9745557f75412eb4d5d8b0abae5a3772"
+  integrity sha512-QvPcAq1zlsvZfcyTwFlVVsO6DV3nW5SaXXWndesNx8erAtYJEnpJSQXcO2RABxz+YTXkK57h1fadySJX5SDqSA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+
+"@zendeskgarden/react-theming@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-theming/-/react-theming-8.0.0.tgz#ab60dbbd9d22e1bd2e9849c9e65e321f00b2e90e"
+  integrity sha512-/AwsVwSy0v5CDbIfBS/xQsSwdOma+RMMQZaN8TneKXFcCkVWn6EPdNgAVwfmHl61sJMI5Y+McK9gMYo+ngWISA==
+  dependencies:
+    "@zendeskgarden/container-focusvisible" "^0.4.1"
+    "@zendeskgarden/container-utilities" "^0.5.1"
+    polished "^3.4.4"
 
 "@zendeskgarden/svg-icons@6.10.0":
   version "6.10.0"

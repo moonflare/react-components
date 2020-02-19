@@ -32,5 +32,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "zendeskgarden:src": "src/index.js"
+  "zendeskgarden:src": "src/index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.8.4"
+  }
 }

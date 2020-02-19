@@ -2,40 +2,55 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.6.3":
+"@babel/runtime@^7.6.3", "@babel/runtime@^7.8.4":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@zendeskgarden/container-focusjail@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-focusjail/-/container-focusjail-1.3.1.tgz#b7b8debc41e23db5502d0fa3d8665939c466d067"
-  integrity sha512-RHWgZHyAtMmfL9+2rRtNXYet6J55FFxleK1nVUdX1QEx6UL/2uYL+0ZX011TRYPJjuNczRTfhByO2iNE+Mm9nw==
+"@zendeskgarden/container-focusjail@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-focusjail/-/container-focusjail-1.3.2.tgz#e30f3b57127d37e30fe6e53c730ed42434e7c245"
+  integrity sha512-jGcXO0JG8MWiZz0wxEyMmhSeyWkzGGvT7BIY01tVhDBJOGRKgkR9E2D2tUD9GFV3c0iQSKqKU6dDzbFiaT2CiQ==
   dependencies:
-    "@zendeskgarden/container-utilities" "^0.5.1"
+    "@babel/runtime" "^7.8.4"
+    "@zendeskgarden/container-utilities" "^0.5.2"
     dom-helpers "^5.1.0"
     tabbable "^4.0.0"
 
 "@zendeskgarden/container-focusvisible@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-focusvisible/-/container-focusvisible-0.4.1.tgz#87d013163297c3ceffc5b5c99240477c563a7c13"
-  integrity sha512-8gG4WGPxvz9aZ2vk7Yqfp2LVvfMOA6OhiF0alT4B0ds5SMO3JF1B0GMhRReR/nA97TS8TPHmWlw+QusQTWsq3A==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-focusvisible/-/container-focusvisible-0.4.2.tgz#f1fe2f9e33c8af1fc838fac6dabc5ec0e93cfe9c"
+  integrity sha512-UlT1Wq2vWci3xUk4BGZnKLtEJtDf1OACMtCa0kTSL7Lk40qD+rM3BIiay0GYOfeDKQ+Ar/mk32GPqcYzpa/tbA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
 
 "@zendeskgarden/container-modal@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-modal/-/container-modal-0.7.1.tgz#213dcb7539f2b5e652a81be58fa52c129c974b03"
-  integrity sha512-xTM47vOUQhOUD0RlMAZPfz7qie60LbA8iiaE70CPEwvFB4C/2q/T3O/4yKfdLwWaoaMA/C2HgdK9xmyFq5UKdw==
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-modal/-/container-modal-0.7.2.tgz#0821164aac3fd9d9b76fa68f3f913bb129488105"
+  integrity sha512-ifpa/DCzJDtmlEIHaTtoGsbquL0U2zd2FIAeLAg+F7VH1/u/Q0SwK/wfUTxL7+xDlmjUjACM4tNeQrolyaMEpQ==
   dependencies:
-    "@zendeskgarden/container-focusjail" "^1.3.1"
-    "@zendeskgarden/container-utilities" "^0.5.1"
+    "@babel/runtime" "^7.8.4"
+    "@zendeskgarden/container-focusjail" "^1.3.2"
+    "@zendeskgarden/container-utilities" "^0.5.2"
     react-uid "^2.2.0"
 
-"@zendeskgarden/container-utilities@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.5.1.tgz#738dc99dbe4a98809fdc015e5a8e000997725876"
-  integrity sha512-+nswWqFEiWHkuQeYSdftJ5c3Xy48IHPKb23qktIeEl+ZibMXzWVytdg91zOerI/HGJizNJ0gKmq+0A/4//eiQQ==
+"@zendeskgarden/container-utilities@^0.5.1", "@zendeskgarden/container-utilities@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.5.2.tgz#38aeb5cf9745557f75412eb4d5d8b0abae5a3772"
+  integrity sha512-QvPcAq1zlsvZfcyTwFlVVsO6DV3nW5SaXXWndesNx8erAtYJEnpJSQXcO2RABxz+YTXkK57h1fadySJX5SDqSA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+
+"@zendeskgarden/react-theming@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-theming/-/react-theming-8.0.0.tgz#ab60dbbd9d22e1bd2e9849c9e65e321f00b2e90e"
+  integrity sha512-/AwsVwSy0v5CDbIfBS/xQsSwdOma+RMMQZaN8TneKXFcCkVWn6EPdNgAVwfmHl61sJMI5Y+McK9gMYo+ngWISA==
+  dependencies:
+    "@zendeskgarden/container-focusvisible" "^0.4.1"
+    "@zendeskgarden/container-utilities" "^0.5.1"
+    polished "^3.4.4"
 
 "@zendeskgarden/svg-icons@6.10.0":
   version "6.10.0"
@@ -43,9 +58,9 @@
   integrity sha512-lytNS9gsuiIPX5cmAP/L+DUZH9UdVyvUmaUoPsq1e+b82hVcA2sUj6S82WTtDeh/Kzu897duENiNRkthdt4Cow==
 
 csstype@^2.6.7:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.8.tgz#0fb6fc2417ffd2816a418c9336da74d7f07db431"
-  integrity sha512-msVS9qTuMT5zwAGCVm4mxfrZ18BNc6Csd0oJAtiFMZ1FAx1CCvy2+5MDmYoix63LM/6NDbNtodCiGYGmFgO0dA==
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.9.tgz#05141d0cd557a56b8891394c1911c40c8a98d098"
+  integrity sha512-xz39Sb4+OaTsULgUERcCk+TJj8ylkL4aSVDQiX/ksxbELSqwkgt4d4RD7fovIdgJGSuNYqwZEiVjYY5l0ask+Q==
 
 dom-helpers@^5.1.0:
   version "5.1.3"
@@ -54,6 +69,13 @@ dom-helpers@^5.1.0:
   dependencies:
     "@babel/runtime" "^7.6.3"
     csstype "^2.6.7"
+
+polished@^3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-3.4.4.tgz#ac8cd6e704887398f3b802718f9d389b9ea4307b"
+  integrity sha512-x9PKeExyI9AhWrJP3Q57I1k7GInujjiVBJMPFmycj9hX1yCOo/X9eu9eZwxgOziiXge3WbFQ5XOmkzunOntBSA==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
 
 react-uid@^2.2.0:
   version "2.2.0"

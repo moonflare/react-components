@@ -22,6 +22,7 @@
   "sideEffects": false,
   "types": "dist/typings/index.d.ts",
   "dependencies": {
+    "@babel/runtime": "^7.8.4",
     "@zendeskgarden/container-tabs": "^0.5.1",
     "@zendeskgarden/container-utilities": "^0.5.1",
     "polished": "^3.4.4"

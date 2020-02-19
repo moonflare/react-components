@@ -36,6 +36,10 @@ const externalPackages = [
   ...Object.keys(pkg.dependencies || {})
 ];
 
+if (!externalPackages.includes('@babel/runtime')) {
+  throw new Error(`Package "${pkg.name}" must include the "@babel/runtime" dependency.`);
+}
+
 export default [
   {
     input: pkg['zendeskgarden:src'],
@@ -66,6 +70,7 @@ export default [
         }),
       babel({
         babelrc: false,
+        runtimeHelpers: true,
         exclude: 'node_modules/**', // only transpile our source code
         ...babelOptions,
         extensions: [...DEFAULT_EXTENSIONS, '.ts', '.tsx']
